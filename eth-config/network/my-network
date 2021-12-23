@@ -1,0 +1,15 @@
+[connection]
+id=my-network
+uuid=d55162b4-6152-4310-9312-8f4c54d86afa
+type=802-3-ethernet
+llmnr=2
+mdns=2
+
+[ipv4]
+method=manual
+address=192.168.1.111/24;192.168.1.1
+dns=8.8.8.8;8.8.4.4
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
